@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+ <!--Header-->
+ <header class="light-green darken-1">
+  <nav class="transparent">
+   <div class="container">
+     <div class="nav-wrapper">
+       <a href="index.html" class="brand-logo">The Green Project</a>
+       <a href="#" data-target="slide-out" class="sidenav-trigger"><i 
+        class="material-icons">menu</i>
+       </a>
+       <ul class="right hide-on-med-and-down">
+         <li>
+           <a href="index.html">Home</a>
+         </li>
+         <li>
+           <a href="aboutus.html">About Us</a>
+         </li>
+         <li>
+            <a href="signup.html">Sign Up</a>
+         </li>
+         <li>
+           <a href="#login-modal" class="btn light-green modal-trigger waves-effect">Log-in</a>
+         </li>
+       </ul>
+     </div>
+   </div>
+  </nav>    
+ </header>
+ </div>
+
+  <!-- Section: Signup -->
+  <section class="section section-signup">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h4>Join us</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veniam id nisi? Saepe sint ipsum distinctio
+            molestiae, recusandae autem sequi?</p>
+          <h4>Donate</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veniam id nisi? Saepe sint ipsum distinctio
+            molestiae, recusandae autem sequi?</p>
+          <h4>Save the Earth</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veniam id nisi? Saepe sint ipsum distinctio
+            molestiae, recusandae autem sequi?</p>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0">
+            <form>
+              <div class="input-field">
+                <input type="text" id="first_name">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="last_name">
+                <label for="last_name">Last Name</label>
+              </div>
+              <div class="input-field">
+                <input type="email" id="email">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field">
+                <input type="password" id="password">
+                <label for="password">Password</label>
+              </div>
+              </div>
+              <input type="submit" value="Signup" class="btn btn-medium light-green">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Sidenav-->
+  <ul id="slide-out" class="sidenav">
+    <h4 class="green-text center">The Green Project</h4>
+    <div class="divider"></div>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="aboutus.html">About Us</a>
+      </li>
+       <li>
+        <a href="signup.html">Sign Up</a>
+      </li>
+      <li>
+       <a href="#login-modal" class="btn modal-trigger btn-flat">Log-in</a>
+      </li>
+  </ul>
+
+  <!-- Footer -->
+  <footer class="page-footer light-green darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam architecto nihil saepe. Quae autem dignissimos, rem temporibus aliquam laboriosam harum.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="aboutus.html">About Us</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="signup.html">Signup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright light-green darken-1">
+      <div class="container">
+        Green Project &copy; 2022
+        <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+     $(document).ready(function(){
+      $('.sidenav').sidenav({
+      edge: 'right'
+    });
+  });
+  </script>
+</body>
+</html>
